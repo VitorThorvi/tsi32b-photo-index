@@ -1,2 +1,12 @@
-/README_1.md
+# ignore IDE configs
 /.idea
+
+# ignore environment files
+/photodex/.env
+
+# ignore nodemodules
+/photodex/node_modules
+
+# ignore OS files
+*.DS_Store
+
