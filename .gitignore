@@ -7,3 +7,5 @@
 # ignore env files
 .env
 
+# ignode node_modules
+/photodex/node_modules
