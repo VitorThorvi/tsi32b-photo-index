@@ -14,7 +14,7 @@ define deploy webpage.
 ---
 
 ## Protótipo
-Prototype link: https://www.figma.com/design/lSxQBZqdWSeyPRiwx3xrzh/tsi32b---photodex?node-id=0-1&t=wLHccG77m77viV4l-1
+Figma Project Link: https://www.figma.com/design/lSxQBZqdWSeyPRiwx3xrzh/tsi32b---photodex?node-id=2016-95&t=LurysCZxQCv6qBRB-1
 - [x] Create sketch link; 
 - [ ] Create browseable prototype from sketch;
 ---
