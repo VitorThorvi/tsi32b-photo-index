@@ -17,6 +17,7 @@ Next steps:
 
 ### Color pallete tools
 Adobe Color, Coolors, Paletton and Color Hunt. Those tools suggest complementary and harmonious colors.
+
 ### Other tips from this class
 * Define CSS hierarchy for headings, body, bold text, links etc, to keep consistency through the application.
 

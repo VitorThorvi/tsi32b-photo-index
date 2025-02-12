@@ -1,5 +1,34 @@
 # tsi32b-photo-index
 
+- Nome da aplicação: photodex
+- Identificação/Autor: Vitor Gregorio Wuchryn Martins
+
+[//]: # (todo descrever integração com API na descrição do projeto)
+- Descrição do projeto: O projeto busca de forma simples resolver o problema de fotógrafos que ao fotogravar a serviço de um cliente têm muito mais imagens do que o necessário ao final da sessão de fotografia. A aplicação *photodex* objetiva simplesmente mostrar aos clientes todas as imagens da sessão de fotografia, permitir a seleção por parte dos clientes e informar ao fotógrafo quais são as imagens escolhidas.
+
+- Prototipação no Figma: [figma prototype link](https://www.figma.com/design/lSxQBZqdWSeyPRiwx3xrzh/tsi32b---photodex?node-id=0-1&t=wLHccG77m77viV4l-1)
+- Framework CSS: Boostratp
+
+[//]: # (todo)
+[//]: # (- Design System: Link para o documento que descreve o Design System da aplicação.)
+
+[//]: # (todo)
+[//]: # (- Dependências: Lista das bibliotecas JavaScript utilizadas)
+
+[//]: # (todo)
+[//]: # (- Link para o site em produção: URL para acessar o site publicado no GitHub Pages.)
+
+[//]: # (todo)
+[//]: # (- Checklist de Funcionalidades: Uma lista de funcionalidades marcadas como concluídas &#40;ou não&#41; durante o desenvolvimento)
+
+[//]: # (todo)
+[//]: # (- Instruções de Execução: Passos detalhados para configurar e executar a aplicação localmente.)
+
+[//]: # (todo)
+[//]: # (- Telas da Aplicação: Imagens de algumas telas da aplicação)
+
+---
+
 This project is a photo album index. It aims to help photographers and its customers on the process of developing a photo album. 
 The application is designed to be a platform where the photographer loads all available pictures for a given customer and the customer chooses a pre-defined number of pictures that will be printed on the final version of the photo album.
 
@@ -14,7 +43,7 @@ define deploy webpage.
 ---
 
 ## Protótipo
-Prototype link: https://www.figma.com/design/lSxQBZqdWSeyPRiwx3xrzh/tsi32b---photodex?node-id=0-1&t=wLHccG77m77viV4l-1
+Prototype link: [figma prototype link](https://www.figma.com/design/lSxQBZqdWSeyPRiwx3xrzh/tsi32b---photodex?node-id=0-1&t=wLHccG77m77viV4l-1)
 - [x] Create sketch link; 
 - [ ] Create browseable prototype from sketch;
 ---
