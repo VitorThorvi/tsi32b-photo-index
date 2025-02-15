@@ -1,0 +1,23 @@
+// file structure follows documentation file structure
+//
+//  your-project/
+//  ├── scss/
+//  │   └── custom.scss
+//  └── node_modules/
+//  │   └── bootstrap/
+//  │       ├── js/
+//  │       └── scss/
+//  └── index.html
+
+// Watch your custom Sass for changes and compile it to CSS
+// sass --watch ./scss/custom.scss ./css/custom.css
+
+@import "../node_modules/bootstrap/scss/functions.scss";
+@import "../node_modules/bootstrap/scss/variables.scss";
+
+$primary: #42ea0b;
+$body-secondary-bg: #0B1658;
+$danger: #ff4136;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
