@@ -3,8 +3,12 @@
 - Nome da aplicação: photodex
 - Identificação/Autor: Vitor Gregorio Wuchryn Martins
 
-[//]: # (todo descrever integração com API na descrição do projeto)
-- Descrição do projeto: O projeto busca de forma simples resolver o problema de fotógrafos que ao fotogravar a serviço de um cliente têm muito mais imagens do que o necessário ao final da sessão de fotografia. A aplicação *photodex* objetiva simplesmente mostrar aos clientes todas as imagens da sessão de fotografia, permitir a seleção por parte dos clientes e informar ao fotógrafo quais são as imagens escolhidas.
+- Descrição do projeto: O projeto busca de forma simples resolver o problema de fotógrafos que ao fotogravar a serviço
+de um cliente têm muito mais imagens do que o necessário ao final da sessão de fotografia. 
+A aplicação *photodex* objetiva simplesmente mostrar aos clientes todas as imagens da sessão de fotografia, 
+permitir a seleção por parte dos clientes e informar ao fotógrafo quais são as imagens escolhidas.
+Integra remotamente com API da [lorem-picusm-api](https://publicapi.dev/lorem-picsum-api) e localmente com
+API via json-server.
 
 Estrutura do projeto:
 
@@ -15,63 +19,38 @@ repositório projeto de logo fictícia que apesar de não estar relacionada
 ao código, é relevante para o projeto.
 
 ```
-photodex/
-├── src/
-│   ├── assets/
-│   ├── css/
-│   ├── js/
-│   │   ├── pages/ \\ -> lógica específica relacionada a layout html
-│   │   └── service/ \\ -> outros códigos JS
-│   ├── pages/
-├── node_modules/
-├── package.json
-└── package-lock.json
+photodex //raiz
+    src // código fonte
+        assets/
+        css/
+        js/
+            pages/ \\ -> lógica específica relacionada a layout html
+            service/ \\ -> outros códigos JS
+        pages/ //html
+        node_modules/ // dependencias instaladas via npm
+        package.json 
+        package-lock.json
 ```
 
 - Prototipação no Figma: [figma prototype link](https://www.figma.com/design/lSxQBZqdWSeyPRiwx3xrzh/tsi32b---photodex?node-id=0-1&t=wLHccG77m77viV4l-1)
-- Framework CSS: Boostratp
-
-[//]: # (todo)
-[//]: # (- Design System: Link para o documento que descreve o Design System da aplicação.)
-
-[//]: # (todo)
-[//]: # (- Dependências: Lista das bibliotecas JavaScript utilizadas)
-
-[//]: # (todo)
-[//]: # (- Link para o site em produção: URL para acessar o site publicado no GitHub Pages.)
-
-[//]: # (todo)
-[//]: # (- Checklist de Funcionalidades: Uma lista de funcionalidades marcadas como concluídas &#40;ou não&#41; durante o desenvolvimento)
-
-[//]: # (todo)
-[//]: # (- Instruções de Execução: Passos detalhados para configurar e executar a aplicação localmente.)
-
-[//]: # (todo)
-[//]: # (- Telas da Aplicação: Imagens de algumas telas da aplicação)
-
----
-
-This project is a photo album index. It aims to help photographers and its customers on the process of developing a photo album. 
-The application is designed to be a platform where the photographer loads all available pictures for a given customer and the customer chooses a pre-defined number of pictures that will be printed on the final version of the photo album.
-
-This project is developed under the context of UTFPR TSI32B course. During the course the student must be able to create a functional responsive web application that fulfills a certain number of performance requirements. Those are show below as ID - Indicadores de Desempenho. It also must use some CSS framework and JavaScript libraries. This application is for personal, non-corporate use only.
+- Framework CSS: [Boostratp](https://getbootstrap.com/docs/5.3/getting-started/introduction/) 
 
 ---
 
 ## Endereço de Deploy - GitHub Pages
 
-define deploy webpage. 
+Não houve deploy no github pages.
 
 ---
 
 ## Protótipo
 Prototype link: [figma prototype link](https://www.figma.com/design/lSxQBZqdWSeyPRiwx3xrzh/tsi32b---photodex?node-id=0-1&t=wLHccG77m77viV4l-1)
-- [x] Create sketch link; 
+- [ ] Create sketch link; 
 - [ ] Create browseable prototype from sketch;
 ---
 
 ## Checklist | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
-- [x] import performance benchmarks list.
+- [ ] import performance benchmarks list.
 
 #### RA1 - Utilizar Frameworks CSS para estilização de elementos HTML e criação de layouts responsivos.
 
@@ -117,9 +96,8 @@ Prototype link: [figma prototype link](https://www.figma.com/design/lSxQBZqdWSey
 
 ## Manual de execução
 
-- [ ] show instructions on how to start the application.
 
-utilize git clone
+### Execução da API local:
 
 Para facilitar a disponibilidade da ferramenta 
 'json-server' utilizada para o desenvolvimento, recomenda-se
@@ -130,4 +108,6 @@ Para isso, execute:
 npm install -g json-server@0.17.4
 ```
 Com o pacote instalado desta forma o script `npm run db:dev`
-executará normalmente.
+executará normalmente e a API local estará disponível no endpoint http://localhost:3000/customer
+
+
