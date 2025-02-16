@@ -1,0 +1,34 @@
+{
+  "customer": [
+    {
+      "nome": "Giovanni Yuri Duarte",
+      "cpf": "59249723130",
+      "email": "giovanni_yuri_duarte@cmfcequipamentos.com.br",
+      "gallery": "path-to-gallery"
+    },
+    {
+      "nome": "Esther Silvana Teixeira",
+      "cpf": "82736522974",
+      "email": "esther-teixeira71@supercleanlav.com.br",
+      "gallery": "path-to-gallery"
+    },
+    {
+      "nome": "Theo Levi Pedro Henrique Assis",
+      "cpf": "33371085392",
+      "email": "theoleviassis@gmindustria.com.br",
+      "gallery": "path-to-gallery"
+    },
+    {
+      "nome": "Julia Luana Vieira",
+      "cpf": "14277714994",
+      "email": "julia_vieira@unicohost.com.br",
+      "gallery": "path-to-gallery"
+    },
+    {
+      "nome": "Theo Henry Costa",
+      "cpf": "07040603101",
+      "email": "theo_costa@3dmaker.com.br",
+      "gallery": "path-to-gallery"
+    }
+  ]
+}

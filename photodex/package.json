@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:dev": "json-server --watch ./json-server/db.json"
   },
   "keywords": [],
   "author": "",
@@ -11,6 +12,9 @@
   "description": "",
   "dependencies": {
     "bootstrap": "^5.3.3",
-    "bootstrap-icons": "^1.11.3"
+    "bootstrap-icons": "^1.11.3",
+    "jquery": "^3.7.1",
+    "jquery-mask-plugin": "^1.14.16",
+    "json-server": "^0.17.4"
   }
 }

@@ -6,6 +6,28 @@
 [//]: # (todo descrever integração com API na descrição do projeto)
 - Descrição do projeto: O projeto busca de forma simples resolver o problema de fotógrafos que ao fotogravar a serviço de um cliente têm muito mais imagens do que o necessário ao final da sessão de fotografia. A aplicação *photodex* objetiva simplesmente mostrar aos clientes todas as imagens da sessão de fotografia, permitir a seleção por parte dos clientes e informar ao fotógrafo quais são as imagens escolhidas.
 
+Estrutura do projeto:
+
+O repositório inicia em tsi32b-photodex. O projeto, porém, 
+tem sua raiz no diretório 'photodex'. 
+Essa decisão foi tomada para tornar possível adicionar ao 
+repositório projeto de logo fictícia que apesar de não estar relacionada
+ao código, é relevante para o projeto.
+
+```
+photodex/
+├── src/
+│   ├── assets/
+│   ├── css/
+│   ├── js/
+│   │   ├── pages/ \\ -> lógica específica relacionada a layout html
+│   │   └── service/ \\ -> outros códigos JS
+│   ├── pages/
+├── node_modules/
+├── package.json
+└── package-lock.json
+```
+
 - Prototipação no Figma: [figma prototype link](https://www.figma.com/design/lSxQBZqdWSeyPRiwx3xrzh/tsi32b---photodex?node-id=0-1&t=wLHccG77m77viV4l-1)
 - Framework CSS: Boostratp
 
@@ -97,3 +119,15 @@ Prototype link: [figma prototype link](https://www.figma.com/design/lSxQBZqdWSey
 
 - [ ] show instructions on how to start the application.
 
+utilize git clone
+
+Para facilitar a disponibilidade da ferramenta 
+'json-server' utilizada para o desenvolvimento, recomenda-se
+instalar globalmente com npm o pacote 'json-server'.
+Para isso, execute:
+
+```bash
+npm install -g json-server@0.17.4
+```
+Com o pacote instalado desta forma o script `npm run db:dev`
+executará normalmente.
