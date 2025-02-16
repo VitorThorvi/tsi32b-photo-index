@@ -5,10 +5,13 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>Dashboard</title>
     <link href="../css/custom.css" rel="stylesheet">
+    <link href="../../node_modules/alertifyjs/build/css/alertify.css" rel="stylesheet">
+    <link href="../../node_modules/alertifyjs/build/css/themes/default.css" rel="stylesheet">
 </head>
 
 <body class="bg-secondary">
 
+<!-- nav -->
 <nav class="navbar navbar-expand bg-body-tertiary">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -19,29 +22,29 @@
                 <a class="nav-link active" href="#">Clientes</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Nova seleção</a>
+                <a class="nav-link" href="./new.html">Nova seleção</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Sair</a>
+                <a class="nav-link" href="./login.html">Sair</a>
             </li>
         </ul>
     </div>
 </nav>
 
-<!-- lista de clientes -->
-
+<!-- lista customers -->
 <div class="container d-flex flex-column justify-content-center">
-    <div class="row ">
+    <div class="row">
         <div class="col-12 col-md-6 offset-md-3">
             <div class="card mt-4">
                 <div class="card-body">
                     <h1 class="card-title text-center mb-4">Meus clientes</h1>
                     <div class="mt-4 d-grid">
                         <div class="list-group list-group-flush">
-                            <a class="list-group-item list-group-item-action" href="#"> Primeiro cliente</a>
-                            <a class="list-group-item list-group-item-action" href="#"> Segundo cliente</a>
-                            <a class="list-group-item list-group-item-action" href="#"> Terceiro cliente</a>
-                            <a class="list-group-item list-group-item-action" href="#"> Quarto cliente</a>
+                            <div class="text-center" >
+                            <div class="spinner-border" role="status">
+                            </div>
+                            </div>
+                            <a class="list-group-item list-group-item-action" href="#"></a>
                         </div>
                     </div>
                 </div>
@@ -50,9 +53,8 @@
     </div>
 </div>
 
-
-<!--  todo replace to minified version for production -->
-
-<script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/pages/dashboard.js"></script>
+<script src="../../node_modules/alertifyjs/build/alertify.min.js"></script>
 </body>
 </html>
