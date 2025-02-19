@@ -1,6 +1,3 @@
-# ignore IDE configs
-/.idea
-
 # ignore environment files
 /photodex/.env
 
@@ -9,3 +6,16 @@
 
 # ignore OS files
 *.DS_Store
+=======
+# ignore IDE files
+.idea/
+
+# ignore OS files
+.DS_Store
+
+# ignore env files
+.env
+
+# ignode node_modules
+/photodex/node_modules
+

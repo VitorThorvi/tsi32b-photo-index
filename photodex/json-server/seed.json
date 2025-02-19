@@ -1,0 +1,18 @@
+{
+  "customer": [
+    {
+      "id": "1",
+      "name": "Giovanni Yuri Duarte",
+      "cpf": "59249723130",
+      "email": "giovanni_yuri_duarte@cmfcequipamentos.com.br",
+      "photosQuantity": "5"
+    },
+    {
+      "id": "2",
+      "name": "Esther Silvana Teixeira",
+      "cpf": "82736522974",
+      "email": "esther-teixeira71@supercleanlav.com.br",
+      "photosQuantity": "5"
+    }
+  ]
+}

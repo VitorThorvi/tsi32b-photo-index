@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Photodex - Login</title>
+    <link href="../css/custom.css" rel="stylesheet">
+    <link href="../../node_modules/alertifyjs/build/css/alertify.min.css" rel="stylesheet">
+    <link href="../../node_modules/alertifyjs/build/css/themes/default.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-body-secondary">
+
+<!--  card de login  -->
+<div class="container d-flex flex-column justify-content-center vh-100">
+    <div class="row">
+        <div class="col-12 col-md-6 offset-md-3">
+            <div class="card shadow-sm">
+                <div class="card-body p-4">
+                    <h1 class="card-title text-center mb-4">Photodex</h1>
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label" for="customerId">ID de Usuário</label>
+                            <input
+                                    autofocus
+                                    class="form-control"
+                                    id="customerId"
+                                    placeholder="Insira o seu ID de usuário"
+                                    required
+                                    type="text"
+                            />
+                        </div>
+                        <div class="d-grid">
+                            <a class="btn btn-primary" href="./gallery.html" type="submit">
+                                Entrar
+                            </a>
+                        </div>
+                    </form>
+                    <div class="mt-4 text-center">
+                        <a class="text-decoration-none" href="./signup.html">
+                            Crie sua conta
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/service/customerId.js"></script>
+<script src="../../node_modules/alertifyjs/build/alertify.min.js"></script>
+</body>
+</html>

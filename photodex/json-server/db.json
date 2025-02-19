@@ -1,0 +1,145 @@
+{
+  "customer": [
+    {
+      "id": "1",
+      "name": "Giovanni Yuri Duarte",
+      "cpf": "59249723130",
+      "email": "giovanni_yuri_duarte@cmfcequipamentos.com.br",
+      "photosQuantity": "5"
+    },
+    {
+      "id": "2",
+      "name": "Esther Silvana Teixeira",
+      "cpf": "82736522974",
+      "email": "esther-teixeira71@supercleanlav.com.br",
+      "photosQuantity": "5"
+    },
+    {
+      "id": "9850",
+      "name": "Giovanni Yuri Duarte",
+      "cpf": "59249723130",
+      "email": "giovanni_yuri_duarte@cmfcequipamentos.com.br",
+      "photosQuantity": "5"
+    },
+    {
+      "id": "bb2b",
+      "name": "asdfd",
+      "cpf": "11119878909",
+      "email": "asdasf@adasd.com",
+      "cep": "09878909",
+      "photosQuantity": "5"
+    },
+    {
+      "id": "0403",
+      "name": "asdfd",
+      "cpf": "87689876786",
+      "email": "asdasf@adasd.com",
+      "cep": "09878909",
+      "photosQuantity": "5"
+    },
+    {
+      "id": "b7f2",
+      "name": "teste-1",
+      "cpf": "12345678987",
+      "email": "teste1@example.com",
+      "cep": "23456789",
+      "photosQuantity": "8"
+    },
+    {
+      "id": "3777",
+      "name": "teste-1",
+      "cpf": "12345678987",
+      "email": "teste1@example.com",
+      "cep": "23456789",
+      "photosQuantity": "8"
+    },
+    {
+      "id": "e1d2",
+      "name": "teste-1",
+      "cpf": "12345678987",
+      "email": "teste1@example.com",
+      "cep": "23456789",
+      "photosQuantity": "8"
+    },
+    {
+      "id": "60e6",
+      "name": "teste-1",
+      "cpf": "09876543234",
+      "email": "teste1@example.com",
+      "cep": "98765432",
+      "photosQuantity": "3"
+    },
+    {
+      "id": "5df3",
+      "name": "teste-1",
+      "cpf": "09876543234",
+      "email": "teste1@example.com",
+      "cep": "98765432",
+      "photosQuantity": "3"
+    },
+    {
+      "id": "a6e4",
+      "name": "teste-1",
+      "cpf": "12345678987",
+      "email": "teste1@example.com",
+      "cep": "09878909",
+      "photosQuantity": "5"
+    },
+    {
+      "id": "b825",
+      "name": "teste-1",
+      "cpf": "12345678987",
+      "email": "teste1@example.com",
+      "cep": "09878909",
+      "photosQuantity": "5"
+    },
+    {
+      "id": "8586",
+      "name": "teste-1",
+      "cpf": "98765434567",
+      "email": "teste1@example.com",
+      "cep": "09876543",
+      "photosQuantity": "7"
+    },
+    {
+      "id": "8c33",
+      "name": "teste-1",
+      "cpf": "09876543213",
+      "email": "teste1@example.com",
+      "cep": "98765432",
+      "photosQuantity": "8"
+    },
+    {
+      "id": "44ce",
+      "name": "asdfd",
+      "cpf": "11119878909",
+      "email": "asdasf@adasd.com",
+      "cep": "09878909",
+      "photosQuantity": "5"
+    },
+    {
+      "id": "7fc9",
+      "name": "fdsa",
+      "cpf": "11119878909",
+      "email": "asdasf@adasd.com",
+      "cep": "09878909",
+      "photosQuantity": "5"
+    },
+    {
+      "id": "fd6a",
+      "name": "teste-1",
+      "cpf": "12345678987",
+      "email": "teste1@example.com",
+      "cep": "76789876",
+      "photosQuantity": "9"
+    },
+    {
+      "id": "edca",
+      "name": "vitor",
+      "cpf": "56789876567",
+      "email": "teste1@example.com",
+      "cep": "90876789",
+      "photosQuantity": "2"
+    }
+  ]
+}
